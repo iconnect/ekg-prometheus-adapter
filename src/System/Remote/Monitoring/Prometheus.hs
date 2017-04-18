@@ -12,6 +12,7 @@ module System.Remote.Monitoring.Prometheus
   , defaultOptions
   ) where
 
+import           Control.Applicative
 import           Control.Concurrent (forkIO, threadDelay)
 import           Control.Monad
 import           Control.Monad.IO.Class
